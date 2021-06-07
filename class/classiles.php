@@ -19,7 +19,7 @@ class iles{
     }
 
     /**
-     * join between cities is islands and islands is cities. its also takes as the names of the islands
+     * join between islands_cities is islands and islands is cities. its also takes as the names of the islands
      *
      * param [string] $ile
      * return void
