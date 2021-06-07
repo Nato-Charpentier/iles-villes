@@ -3,6 +3,11 @@ require __DIR__ . '/../connexion/connexiondb.php';
 
 class iles{
 
+    /**
+     * displays the islands
+     *
+     * return void
+     */
     public function showIles(){
 
         global $conn;
@@ -13,6 +18,12 @@ class iles{
         return $select_iles;
     }
 
+    /**
+     * jointure between cities is islands and islands is cities. its also takes as the names of the islands
+     *
+     * param [string] $ile
+     * return void
+     */
     public function getIles($ile){    
         
         global $conn;
